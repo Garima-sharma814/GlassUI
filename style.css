@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #426696;
+}
+
+h1{
+    font-weight: 400;
+    font-size:3rem;
+    opacity: 0.8;
+}
+h3{
+    font-weight: 400;
+    /* font-size:1.2rem; */
+    opacity: 0.8;
+}
+p{
+    color: #658ec6;
+    opacity: 0.8;
+}
+
+.card-info h3{
+    color:#658ec6;
+    font-weight: 400;
+    opacity: 0.8;
+}
+main{
+    min-height: 100vh;
+    background: linear-gradient(to right top, #6dd6f0, #6cdbeb );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.glass{
+    background-color: white;
+    min-height: 80vh;
+    width:60%;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+    border-radius: 2rem;
+    z-index: 3;
+    backdrop-filter: blur(2rem);
+    display: flex;
+}
+
+.circle1, 
+.circle2{    
+    height: 20rem;
+    width: 20rem;
+    position: absolute;
+    border-radius: 50%;
+} 
+
+.circle1{
+    background-color: white;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.3));
+    top: 12%;
+    left: 3%;
+}  
+
+.circle2{
+    background-color: white;
+    background: linear-gradient(to left top, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.3));
+    bottom: 2%;
+    right: 9%;
+}
+
+.circle3{
+    background-color: white;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.3)); 
+    height: 15rem;
+    width: 15rem;
+    position: absolute;
+    top: 6%;
+    right: 5%;
+    border-radius: 50%;
+}
+
+.user img{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    border: 3px solid #426696;
+}
+
+.dashboard{
+    flex:1;
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+    border-radius: 2rem;
+}
+
+.link{
+    display: flex;
+    margin: 2rem 0rem;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.link h3{
+    padding: 0rem 1rem;
+}
+.status{
+    flex:2;
+}
+
+
+/* Section2 */
+
+.cards{
+    margin: 3rem;
+}
+
+.status{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 1rem;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to left top, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.3));
+    border-radius: 0.5rem;
+    margin: 2rem 0rem;
+    padding:1rem 1rem;
+    box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.384);  
+}
+
+/* .card-info{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+} */
+
+/* .percentage{
+    font-weight: bold;
+    background: linear-gradient(to right top, #6dd6f0, #6cdbeb );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} */
+
+.progress{
+    background: linear-gradient(to right top, #6dd6f0, #6cdbeb );
+    width: 250px;
+    height: 40%;
+    border-radius: 1rem;
+    position: relative;
+    overflow:hidden;
+}
+
+.progress-html{
+    width: 300px;
+    height: 40%;
+}
+
+.progress-python{
+    width: 230px;
+    height: 40%;
+}
+.progress-js{
+    width: 150px;
+    height: 40%;
+}
+
+
+.progress::after{
+    content: "";
+    width:100%;
+    height:100%;
+    background: rgb(236,236,236);
+    position: absolute;
+    left:60%;
+    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+
+a{
+    text-decoration: none;
+    color:#426696;
+}
+
+a:hover{
+    text-decoration: underline;
+}

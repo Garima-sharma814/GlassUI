@@ -1,0 +1,5 @@
+ tint: #65dcf9
+ tint-dark: #6cdbeb
+ icon-dark: #65ADF2
+ icon-light:  #6cdbeb
+ txt-colour: #426696
