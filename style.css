@@ -21,6 +21,7 @@ h3{
     font-weight: 400;
     /* font-size:1.2rem; */
     opacity: 0.8;
+    padding-bottom: 0.3rem;
 }
 p{
     color: #658ec6;
@@ -146,12 +147,12 @@ main{
     justify-content: space-between;
 } */
 
-/* .percentage{
+.percentage{
     font-weight: bold;
-    background: linear-gradient(to right top, #6dd6f0, #6cdbeb );
+    background: linear-gradient(to right top, #75dffa, #426696 );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-} */
+}
 
 .progress{
     background: linear-gradient(to right top, #6dd6f0, #6cdbeb );
